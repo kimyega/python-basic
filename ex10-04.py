@@ -1,14 +1,10 @@
 from tkinter import *
-from PIL import Image, ImageTk
-
 
 window = Tk()
 
-img = Image.open("C:/pycham/dog.jpg")
-photo = ImageTk.PhotoImage(img)
+photo = PhotoImage(file= "gif/dog.gif")
+label = Label(window, image= photo)
 
-
-label1 = Label(window, image= photo)
-label1.pack()
+label.pack()
 
 window.mainloop()
