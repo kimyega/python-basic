@@ -1,4 +1,5 @@
 from tkinter import *
+
 window = Tk()
 
 def myFunc() :
@@ -6,7 +7,7 @@ def myFunc() :
         label1.configure(text= "파이썬")
     elif var.get() == 2 :
         label1.configure(text= "C++")
-    else:
+    else :
         label1.configure(text= "Java")
 
 var = IntVar()
@@ -14,7 +15,7 @@ rb1 = Radiobutton(window, text= "파이썬", variable= var, value= 1, command= m
 rb2 = Radiobutton(window, text= "C++", variable= var, value= 2, command= myFunc)
 rb3 = Radiobutton(window, text= "Java", variable= var, value= 3, command= myFunc)
 
-label1 = Label(window, text= "선택한 언어", fg= "red")
+label1 = Label(window, text= "선택한 언어 : ", fg= "red")
 
 rb1.pack()
 rb2.pack()
