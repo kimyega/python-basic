@@ -2,9 +2,8 @@ from tkinter import *
 
 window = Tk()
 
-photo = PhotoImage(file= "gif/dog.gif")
-label = Label(window, image= photo)
+photo = PhotoImage(file="gif/dog.gif")
+label1 = Label(window, image=photo)
 
-label.pack()
-
+label1.pack()
 window.mainloop()
