@@ -6,4 +6,3 @@ window.geometry("400x100")
 window.resizable(width=FALSE, height=FALSE)
 
 window.mainloop()
-
