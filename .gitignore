@@ -115,3 +115,9 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm
+
+# PyCharm 프로젝트 설정
+.idea/misc.xml
+
+# 프로젝트 모듈 파일
+*.iml
