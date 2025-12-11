@@ -1,2 +1,2 @@
 import sys
-sys.path.append("c:python")
+sys.path.append("C:\pyton")
