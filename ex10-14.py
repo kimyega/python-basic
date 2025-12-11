@@ -12,5 +12,5 @@ label1 = Label(window, image= photo)
 
 label1.bind("<Button>", clickImage)
 
-label1.pack(expand=1, anchor=CENTER)
+label1.pack(expand= 1, anchor= CENTER)
 window.mainloop()
